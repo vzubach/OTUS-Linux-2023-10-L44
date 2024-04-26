@@ -107,7 +107,7 @@ Processing xlog segments from streaming for node1
 ```
 БД успешно скопировалась с Node1.<br>
 
-- Удалаяем на Node1 БД Otus и Otus_test:<br>
+- Удалаяем на Node1 БД otus и otus_test:<br>
 ```
 postgres=# DROP DATABASE otus;
 DROP DATABASE
@@ -167,6 +167,6 @@ postgres=# \l
 (5 rows)
 
 ```
-БД Otus и Otus_test - восстановлены. 
+БД otus и otus_test - восстановлены. 
 
 
